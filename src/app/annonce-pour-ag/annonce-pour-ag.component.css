@@ -1,0 +1,22 @@
+body{ width: 100%; background-color: rgba(206, 208, 240, 0.307); height: 100%; }
+.pag{ background-color: #c3b9c7; color: #fff; align-items: center; justify-content: space-between; padding: 10px; position:-ms-page; z-index: 999; border-radius: 20px; margin-inline-start: 10px; }
+.ionicon{ margin-top: 170px; translate: 10px; color:#3d524b ; height:30px ; width :30px; }
+.iconn span:hover  .ionicon { height: 32px ; width:  32px; }
+.s01{ fill:#c3b9c7; }
+.sécuriter{ font-size: x-small; font-style: oblique; color: #3d524b; }
+.titre{ color: #a087b6; }
+.lieu{ color:  #34174f; }
+.btn{ background-color: #34174f; border: none; color: #fff; cursor: pointer; font-size: 1em; margin-top: 10px; padding: 2px; width: 80px; transition: background-color 0.5s ease; }
+.texte{ border-radius: 20px; margin-inline-start:10px; }
+.btn1 { translate: 250%; background-color: #34174f; border-radius: 10px; border: none; color: #fff; cursor: pointer; font-size: 1em; margin-top: 7px; padding: 2px; width: 150px; transition: background-color 0.5s ease; }
+.btn2 { translate: 0%; background-color: #34174f; border-radius: 10px; border: none; color: #fff; cursor: pointer; font-size: 1em; margin-top: 7px; padding: 2px; width: 150px; transition: background-color 0.5s ease; }
+button:hover { background-color: #a087b6; color:  #34174f; }
+.hd{ background-color:transparent; border-radius: 24px; border: none; color: #fff; cursor: pointer; font-size: 1em; margin-top: 7px; padding: 2px; width: 150px; transition: background-color 0.5s ease; }
+section{ transform: translateY(-70px); }
+button.btn1{ transform: translate(240px); }
+.containerimg img:hover { box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.349)  ,20px 20px 20px rgba(0, 0, 0, 0.336); transform: translateY(5px); }
+.containerimg { -webkit-backdrop-filter: blur(15px); /* assure la compatibilité avec safari */ backdrop-filter: blur(7px); background-color: rgba(182, 182, 182, 0.2); border-radius: 15px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); margin: 3px auto; width: 500px; padding: 20px; margin-top: 120px; }
+.containerimg img{ max-width: 200px; max-height: 300px; flex-wrap: wrap;
+border-radius: 4px;
+  margin: 15px;
+}

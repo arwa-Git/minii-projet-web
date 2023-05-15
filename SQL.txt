@@ -1,0 +1,24 @@
+ create table clients
+(addemail varchar2(50) primarykey,
+nom varchar2(30), 
+prenom varchar2(30),
+datenaiss date,  
+tel number,
+mdp varchar2(30),
+mdpc varchar2(30));
+
+ create table agences
+(addemail varchar(50) primary key,
+nomag varchar(30), 
+codefiscal varchar(30), 
+ tel1 int,
+tel2 int,
+address varchar(30),
+codepostal int,
+mdp varchar(30),
+mdpc varchar(30));
+
+create table compte
+(addmail varchar(50),
+passw varchar(30),
+type char);

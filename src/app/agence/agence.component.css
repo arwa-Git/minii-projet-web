@@ -1,0 +1,42 @@
+body{background-color: #eee; margin-top: 0PX;}
+.container{background-color: rgba(170, 158, 228, 0.186); border-radius: 25px; box-shadow: 0 0 px rgba(0, 0, 0, 0.3); margin: 3px auto; width: 1400px; padding: 20px; margin-top: 110px;}
+.rounded img{border-radius: 50%; border: 6px solid #eee; margin-top: -55px; transform: translate(20px); height: 150px;}
+.ligne{display: flex;}
+#nomag{margin-top: 30px; transform: translate(30px);}
+.rang{display: flex; transform: translate(890px);}
+.card-container {display:flex; flex-wrap:wrap; justify-content: center; margin-top: 16px; width: 1400px; transform: translateX(-60px);}
+.card-container .card {all: unset; border-radius: 4px; border: 1px solid #eee; background-color: #fafafa; height: 370px; width: 150px; margin: 20px; padding: 16px; flex-direction: row; justify-content: center; align-items: center; transition: all 0.2s ease-in-out; line-height: 24px; text-align: center;}
+.card-container .card:not(:last-child) {margin-right: 0;}
+.card.card-small {height: 16px; width: 168px;}
+.card-container .card:not(.highlight-card) {cursor: pointer;}
+.card-container .card:not(.highlight-card):hover {transform: translateY(-3px); box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);}
+.card-container .card:not(.highlight-card):hover .material-icons path {fill: rgb(105, 103, 103);}
+.card.highlight-card {background-color: #1976d2; color: white; font-weight: 600; border: none; width: auto; min-width: 30%; position: relative;}
+.card.card.highlight-card span {margin-left: 60px;}
+a img.card-img-top{max-width: 150px; max-height: 200px; border-radius: 4px;}
+.scroll-bar{height: 150px; width: 400px; border: 1px solid rgb(2, 23, 63); font-family: 'GestaRegular',Arial, Helvetica, sans-serif; overflow: auto; margin-top: 30px; border-radius: 4px;}
+.commentaires{transform:translate(870px); align-items: center;}
+.commentaires h4{transform: translateY(20px); text-align: center;}
+.com{width: 370px; height: auto; border:solid 1px #d1d1d1; margin: 2px; background-color: #ffffff; display: block;}
+.contact{display: block;}
+.btn{background-color: #34174f; border: none; color: #fff; cursor: pointer; font-size: 1em; margin-top: 0px; padding: 2px; width: 80px; transition: background-color 0.5s ease;}
+button:hover{background-color: #a087b6; color: #34174f;}
+.input-group input{border: 1px solid rgb(2, 23, 63);}
+.contact{
+  transform: translate(30px);
+  margin-top: 120px;
+  display: inline-block;
+  position: absolute;
+}
+
+.contact a{
+  margin: 5px;
+  color: #34174f;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: double;
+  height: 40px;
+}
+
+.contact a:hover{
+  transform: translateY(-5px);
+}
